@@ -1,0 +1,68 @@
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* *{background-image: url(Artboard\ 2.png)} */
+
+h1 {
+    text-align: center;
+    font-size: 90pt;
+    flex-direction: column;
+    justify-content:center;
+    font-family: body;
+    color: rgb(255, 255, 220);
+}
+
+button {
+    position: absolute;
+    left: 50%; /* Moves button to the middle horizontally */
+    transform: translate(-50%, -50%); /* Centers the button */
+    padding: 10px 20px;
+    background-color:beige;
+    border: 1px solid beige;
+}
+
+a {
+    color: beige;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    .card {
+      display: inline-block;
+    }
+  }
+
+  .scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  
+    .card {
+      flex: 0 0 auto;
+    }
+  }
+
+body {
+    background: black;
+}
+
+@font-face {
+    font-family: body;
+    src: url(Optician-Sans.otf);
+}
+
+p {
+    color: beige;
+    font-size: 25pt;
+    text-align: center;
+    font-family: body;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-left: 10px;
+}
